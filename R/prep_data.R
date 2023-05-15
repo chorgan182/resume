@@ -41,7 +41,7 @@ clean_work <- function(df) {
   work_cols <- names(df) %>%
     purrr::keep(~ stringr::str_detect(.x, "^work"))
 
-  temp <- purrr::set_names(work_cols) %>%
+  purrr::set_names(work_cols) %>%
     purrr::map(~ {
       df_work <- df %>%
         dplyr::select(id, all_of(.x)) %>%
