@@ -41,9 +41,21 @@ if (refresh) {
 }
 ```
 
-::: {#header .columns}
+::: {#header}
 
-::: {.column width="85%"}
+::: {#headshot}
+
+```{=html}
+<div class="image-cropper">
+  <img
+   src="images/headshot.jpg"
+   alt="A photo of the author"
+   class="headshot-pic" />
+</div>
+```
+
+<!-- end headshot div -->
+:::
 
 ::: {#name}
 
@@ -54,28 +66,12 @@ if (refresh) {
 
 ::: {#contact}
 
-{{< fa envelope >}} [{{< var contact.email >}}](mailto: {{< var contact.email >}}) &ensp;**|**&ensp; {{< fa brands linkedin >}} [linkedin.com/in/chuck-horgan]({{< var contact.linkedin >}}) &ensp;**|**&ensp; {{< fa brands github >}} [chorgan182]({{< var contact.github >}}){target=_blank"} &ensp;**|**&ensp; {{< fa globe >}} [chuckhorgan.com]({{< var contact.website >}}){target=_blank"} &ensp;**|**&ensp; {{< fa phone >}} {{< var contact.phone >}}
+{{< fa envelope >}} [{{< var contact.email >}}](mailto: {{< var contact.email >}}) &ensp;**|**&ensp; {{< fa brands linkedin >}} [in/chuck-horgan]({{< var contact.linkedin >}}) &ensp;**|**&ensp; {{< fa brands github >}} [chorgan182]({{< var contact.github >}}){target=_blank"} &ensp;**|**&ensp; {{< fa globe >}} [chuckhorgan.com]({{< var contact.website >}}){target=_blank"} &ensp;**|**&ensp; {{< fa phone >}} {{< var contact.phone >}}
 
 <!-- end contact div -->
 :::
 
-<!-- end name/contact column div -->
-:::
-
-::: {#headshot .column width="15%"}
-
-```{=html}
-<div class="image-cropper">
-  <img
-   src="images/headshot.jpg"
-   alt="A photo of the author"
-   class="headshot-pic" />
-</div>
-```
-<!-- end pic column div -->
-:::
-
-<!-- end header columns div -->
+<!-- end header div -->
 :::
 
 ------------------------------------------------------------------------
@@ -102,7 +98,6 @@ if (refresh) {
 - {{< var work.work1.bullet6 >}}
 - {{< var work.work1.bullet7 >}}
 - {{< var work.work1.bullet8 >}}
-- {{< var work.work1.bullet9 >}}
 
 ------------------------------------------------------------------------
 
