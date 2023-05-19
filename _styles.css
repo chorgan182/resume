@@ -31,7 +31,6 @@ h2 {
   clear: both;
 }
 
-
 .image-cropper {
   width: 125px;
   height: 125px;
@@ -43,6 +42,7 @@ h2 {
   padding: 0px;
   clip-path: circle();
   shape-outside: circle(50%);
+  shape-margin: 0px;
 }
 
 .headshot-pic {
