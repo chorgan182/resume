@@ -3,10 +3,10 @@ create_skills_heatmap <- function(skills_data) {
 
   exp_level_levels <- c(5, 4, 3, 2, 1, 0, NA)
   exp_level_descriptions <- c(
-    "5 - Teach a course on it",
-    "4 - Do advanced tasks with minimal Googling",
-    "3 - Knows what to Google to be proficient",
-    "2 - Used, with guidance or niche topics",
+    "5 - Teach a course on the subject",
+    "4 - Perform advanced tasks with minimal Googling",
+    "3 - Know what to Google to be proficient",
+    "2 - Used with guidance, or on niche topics",
     "1 - Not sure how, but it works",
     "0 - Have not used",
     "NA - Software not applicable to skill"
@@ -101,7 +101,7 @@ save_skills_heatmap <- function(p, path) {
   ggplot2::ggsave(plot = p, filename = path,
                   bg = "transparent",
                   device = "svg",
-                  width = 370 / 96,
+                  width = 350 / 96,
                   height = 600 / 96,
                   units = "in")
 

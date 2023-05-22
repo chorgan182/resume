@@ -82,7 +82,7 @@ if (refresh) {
 
 ::: columns
 
-::: {.column width="52%"}
+::: {.column width="55%"}
 
 ## Selected Experience
 
@@ -97,7 +97,6 @@ if (refresh) {
 - {{< var work.work1.bullet5 >}}
 - {{< var work.work1.bullet6 >}}
 - {{< var work.work1.bullet7 >}}
-- {{< var work.work1.bullet8 >}}
 
 ------------------------------------------------------------------------
 
@@ -122,7 +121,7 @@ if (refresh) {
 <!-- spacer column in middle of body -->
 :::
 
-::: {#col-skills .column width="45%"}
+::: {#col-skills .column width="42%"}
 
 ## Skills
 
