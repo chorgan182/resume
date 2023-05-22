@@ -1,7 +1,7 @@
 
 html {
   font-family: arial;
-  max-width: 8.5in;
+  max-width: 900px;
   font-size: 10pt;
   line-height: 1.2;
   margin: auto;
@@ -9,6 +9,18 @@ html {
 
 body {
   background-color: #f5f5ff;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: orange;
 }
 
 li, p {
